@@ -25,18 +25,18 @@
 }
 
 .App-title {
-  font-size: 42px;
+  font-size: 44px;
   position: relative;
-  top: -40px;
+  top: -42px;
   left: 110px;
   font-family: 'Georgia';
   letter-spacing: 2px;
-  font-weight: 700; 
+  font-weight: 800; 
 }
 
 .App-header a {
   position: relative;
-  top: -100px;
+  top: -105px;
   right: -400px;
   color:white;
   font-size: 20px;
@@ -51,19 +51,37 @@
   font-size: large;
 }
 
-.div-item {
-  height: auto;
-  width: 410px;
-  border: 1px solid rgba(0,0,0,.3);
-  display: inline-block;
-  margin: 10px 15px;
+.a--item__cat{
+  color: #dbbe7a;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.div-item img{
- width: 100%;
- height: auto;
- border-bottom:1px solid rgba(0,0,0,.3);
+
+.ad {
+  max-width: 857px;
+  height: 200px;
+  background: black;
+  margin: -8px auto 6px auto !important;
+  background-image: url("https://s0.2mdn.net/4138069/1-danner_banner_vertigo_970x250.jpg");
 }
+
+.ad h1 {
+  color: white;
+  line-height: 200px;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.a--hero__cat {
+  color: #dbbe7a;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+
 
 .buy {
   background-color: black;
@@ -79,11 +97,48 @@
   text-decoration: none;
 }
 
-.a--item__cat{
-  color: #dbbe7a;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+
+.div--hero {
+  max-width: 851px;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,.3);  
+}
+
+.div--hero img{
+  width: 100%;
+ height: auto;
+ border-bottom:1px solid rgba(0,0,0,.3);
+}
+
+.div--hero p {
+  padding: 0 30px;
+  text-align: left;
+}
+.div-item p {
+  padding: 0 30px;
+}
+
+.div--hero h2{
+  text-align: left;
+  margin-left: 30px;
+  }
+
+.div--container {
+  padding:50px;
+}
+
+.div-item {
+  height: auto;
+  width: 410px;
+  border: 1px solid rgba(0,0,0,.3);
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.div-item img{
+ width: 100%;
+ height: auto;
+ border-bottom:1px solid rgba(0,0,0,.3);
 }
 
 .share {
@@ -111,57 +166,6 @@
   background-color: #999999;
   color: white;
   text-decoration: none;
-}
-
-.div--hero {
-  max-width: 851px;
-  margin: 0 auto;
-  border: 1px solid rgba(0,0,0,.3);  
-}
-
-.div--hero img{
-  width: 100%;
- height: auto;
- border-bottom:1px solid rgba(0,0,0,.3);
-}
-
-.div--hero p {
-  padding: 0 30px;
-  text-align: left;
-}
-.div-item p {
-  padding: 0 30px;
-}
-
-.ad {
-  max-width: 857px;
-  height: 200px;
-  background: black;
-  margin: -8px auto 6px auto !important;
-  background-image: url("https://s0.2mdn.net/4138069/1-danner_banner_vertigo_970x250.jpg");
-}
-
-.ad h1 {
-  color: white;
-  line-height: 200px;
-  font-family: cursive;
-  font-size: 40px;
-}
-
-.a--hero__cat {
-  color: #dbbe7a;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  }
-
-.div--hero h2{
-  text-align: left;
-  margin-left: 30px;
-  }
-
-.div--container {
-  padding:50px;
 }
 
 @keyframes App-logo-spin {
