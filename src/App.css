@@ -1,0 +1,170 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: black;
+  height: 25px;
+  padding: 20px;
+  color: white;
+  text-align: initial;
+}
+.App-header img {
+  max-width: 20px;
+  display: inline-block;
+  position: relative;
+  top: -100px;
+  left: 410px;
+}
+
+.App-title {
+  font-size: 42px;
+  position: relative;
+  top: -40px;
+  left: 110px;
+  font-family: 'Georgia';
+  letter-spacing: 2px;
+  font-weight: 700; 
+}
+
+.App-header a {
+  position: relative;
+  top: -100px;
+  right: -400px;
+  color:white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.div-item {
+  height: auto;
+  width: 410px;
+  border: 1px solid rgba(0,0,0,.3);
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.div-item img{
+ width: 100%;
+ height: auto;
+ border-bottom:1px solid rgba(0,0,0,.3);
+}
+
+.buy {
+  background-color: black;
+  padding: 10px 0;
+  width: 85%;
+  margin: 10px auto;
+  font-weight: 600;
+}
+
+.buy a {
+  padding: 20px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.a--item__cat{
+  color: #dbbe7a;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.share {
+  width: 85%;
+  margin: 10px auto;
+  background: #666666;
+  font-weight: 600;
+}
+
+.sharebtn{
+  padding: 10px 0px;
+  display: inline-block;
+  margin: 0;
+  width: 49%;
+  background-color: #666666;
+  color: white;
+  text-decoration: none;
+}
+
+.stashbtn {
+  padding: 10px 0px;
+  display: inline-block;
+  margin: 0;
+  width: 49%;
+  background-color: #999999;
+  color: white;
+  text-decoration: none;
+}
+
+.div--hero {
+  max-width: 851px;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,.3);  
+}
+
+.div--hero img{
+  width: 100%;
+ height: auto;
+ border-bottom:1px solid rgba(0,0,0,.3);
+}
+
+.div--hero p {
+  padding: 0 30px;
+  text-align: left;
+}
+.div-item p {
+  padding: 0 30px;
+}
+
+.ad {
+  max-width: 857px;
+  height: 200px;
+  background: black;
+  margin: -8px auto 6px auto !important;
+  background-image: url("https://s0.2mdn.net/4138069/1-danner_banner_vertigo_970x250.jpg");
+}
+
+.ad h1 {
+  color: white;
+  line-height: 200px;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.a--hero__cat {
+  color: #dbbe7a;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+.div--hero h2{
+  text-align: left;
+  margin-left: 30px;
+  }
+
+.div--container {
+  padding:50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
